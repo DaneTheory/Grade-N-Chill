@@ -1,5 +1,7 @@
 {
+  "name": "grade-n-chill",
   "version": 2,
+  "alias": ["gradenchill"],
   "builds": [{ "src": "packages/web-app/package.json", "use": "@now/next" }],
   "routes": [{ "src": "(.*)", "dest": "packages/web-app$1", "continue": true }]
 }
